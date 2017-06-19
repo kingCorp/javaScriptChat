@@ -1,0 +1,53 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="mycss/bootstrap.css">
+	<link rel="stylesheet" href="mycss/dostyle.css">
+	<title>chatWebApp</title>
+	<script src="scripts/jquery.min.js"></script>
+	<script src="scripts/chat.js"></script>
+</head>
+
+<body>
+
+	<div class="container-fluid text-center hd1">
+		<h1 style="font-size: 70px;">Hello!</h1>
+		<h1>Have fun Chatting</h1>
+	</div>
+	<hr>
+
+	<div class="container-fluid hd3">
+		<div class="row">
+			<div class="col-md-7">
+				<div class="container-fluid hd2" id="messages">
+				</div>
+				<br>
+				<form role="form" style="padding:20px;">
+					<div class="form-group">
+						<input type="text" id="name" placeholder="enter name" class="form-control">
+					</div>
+					<div class="form-group">
+						<textarea id="comment" placeholder="reply here..." rows="3" class="form-control"></textarea>
+					</div>
+					<input type="button" id="sends" class="btn btn-primary" value="send">
+				</form>
+			</div>
+			<div class="col-md-5">
+				<div class="jumbotron">
+					<h2 style="font-size:30px; color:brown;">FAMOUS QUOTES</h2>
+					<h5 id="myquotes"></h5>
+					<span id="myquotestitle"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+</body>
+
+</html>
